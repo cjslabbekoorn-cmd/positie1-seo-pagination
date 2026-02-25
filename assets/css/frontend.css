@@ -1,0 +1,30 @@
+.p1-seo-pagination{
+  width:100%;
+}
+.p1-seo-pagination__list{
+  list-style:none;
+  margin:0;
+  padding:0;
+  display:flex;
+  gap:8px;
+  flex-wrap:wrap;
+}
+.p1-seo-pagination__item{
+  margin:0;
+}
+.p1-seo-pagination a,
+.p1-seo-pagination span{
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  min-width:36px;
+  height:36px;
+  padding:0 10px;
+  border:1px solid rgba(0,0,0,.15);
+  border-radius:999px;
+  text-decoration:none;
+}
+.p1-seo-pagination .current,
+.p1-seo-pagination__item.is-active span{
+  font-weight:700;
+}
